@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: white;
+}
+.main{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 25%;
+    height: 100vh;
+    
+    
+}
+.mcontent{
+    
+}
+.upper{
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 2vh;
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 5vh;
+    flex-direction: column;
+    gap: 5vh;
+
+    
+}
+
+.ucontent span:hover{
+    text-decoration: underline;
+    
+}
+.lcontent span:hover{
+    text-decoration: underline;
+    width: 80vh;
+  
+}
+.lower{
+    display: flex;
+    flex-direction: column;
+    border-radius:2vh;
+    background-color: white;
+    height: 100vh;
+    color: white;
+    padding-top: 1vh;
+    
+    
+}
+
+.create{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    font-weight: 400;
+    color: black;
+    margin-top: 2vh;
+    border-radius: 1vh;
+    background-color:  white;
+    height: 20vh;
+    
+}
+.create1{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    font-weight: 400;
+    color: black;
+    margin-top: 2vh;
+    border-radius: 2vh;
+    background-color: white;
+    height: 20vh;
+    
+}
+.end span{
+    /* display: flex;
+    flex-direction: row; */
+
+    flex-wrap: wrap;
+    padding: 1vh 1vh 1vh;
+    /* padding-top: 5vh; */
+    font-size: smaller;
+    font-weight: bold;
+    color:black ;
+    border-radius: 1vh;
+
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100vh;
+}
+.upperr{
+    height: 10vh;
+    
+    border-radius: 20px;
+    background-color:white;
+    width:170vh;
+}
+.lowerr{
+    height: 100vh;
+    border-radius: 20px;
+    background-color: white;
+    width:170vh;
+}
+
+.lucontent{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.ubtn{
+    gap: 40px;
+    padding-top: 10px;
+    padding-right: 25px;
+    margin-left: 80vh;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    list-style-type: none;
+    
+    
+
+}
+.ubtn li a{
+    text-decoration: none;
+    color: rgb(167,167,167);
+    transition: 0.5s;
+
+}
+.ubtn li a:hover{
+    color: black;
+    transform: scale(2);
+
+    
+}
+.maincontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card{
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: white;
+    width: 40vh;
+    height: 40vh;
+}
+.card img{
+    margin-top: 5px;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 20vh;
+    width: 20vh;
+
+}
+.card p{
+    color: black;
+    /* font-size: medium; */
+  
+    
+}   
+.create a :hover{
+    background-color: white;
+    color: black;
+}
+.end{
+    height: 21vh;
+    margin-top: 1vh;
+    
+}
+.privacy{
+    position: relative;
+    top: 15vh;
+}
+
+.end .privacy span a{
+    text-decoration: none;
+    color: black;
+}
+
+.audio{
+    display: block; margin-left: auto; margin-right: auto;
+
+}
+.modes span a{
+    font-size: medium; text-decoration: none; color: black;
+}

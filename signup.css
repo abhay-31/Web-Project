@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+.head{
+    color: white;
+}
+
+
+.form{
+    text-align: center;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    color: #1ed760;
+    font-size: 10px;
+    text-decoration: underline;
+
+}
+.mail{
+   
+    color: white;
+}
+input[type=email]{
+    
+    height: 50px;
+    width: 40vh;
+    border-radius: 50px;
+    display: flex;
+}
+.btns{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+
+    display: flex;
+    flex-direction: row;
+
+}
